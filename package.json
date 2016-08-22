@@ -1,60 +1,35 @@
 {
   "name": "btcc-bootstrap",
-  "version": "0.0.0",
-  "dependencies": {
-    "bower-sync": "^0.1.1",
-    "browser-sync": "^2.9.11",
-    "connect-modrewrite": "^0.8.2",
-    "del": "^2.0.2",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.0.1",
-    "gulp-buffer": "0.0.2",
-    "gulp-clean": "^0.3.2",
-    "gulp-compass": "^2.1.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-if": "^2.0.0",
-    "gulp-ignore": "^2.0.1",
-    "gulp-imagemin": "^2.4.0",
-    "gulp-inject-string": "0.0.2",
-    "gulp-jshint": "^1.12.0",
-    "gulp-less": "^3.1.0",
-    "gulp-minify-html": "^1.0.4",
-    "gulp-ng-constant": "^1.1.0",
-    "gulp-path": "^3.0.3",
-    "gulp-postcss": "^6.1.1",
-    "gulp-replace": "^0.5.4",
-    "gulp-rev": "^6.0.1",
-    "gulp-rev-all": "^0.8.22",
-    "gulp-rev-css-url": "^0.1.0",
-    "gulp-rev-replace": "^0.4.2",
-    "gulp-sass": "^2.0.4",
-    "gulp-serve": "^1.4.0",
-    "gulp-size": "^2.0.0",
-    "gulp-sourcemaps": "^1.5.2",
-    "gulp-uglify": "^1.4.2",
-    "gulp-useref": "^2.0.1",
-    "gulp-util": "^3.0.7",
-    "imagemin-pngquant": "^4.2.0",
-    "main-bower-files": "^2.9.0",
-    "run-sequence": "^1.2.2"
-  },
-  "devDependencies": {
-    "coveralls": "^2.11.9",
-    "gulp-jade": "^1.1.0",
-    "jasmine-core": "^2.4.1",
-    "jshint-stylish": "^0.2.0",
-    "karma": "^0.13.22",
-    "karma-chrome-launcher": "^0.2.3",
-    "karma-coverage": "^0.5.5",
-    "karma-coveralls": "^1.1.2",
-    "karma-jasmine": "^0.3.8",
-    "karma-phantomjs-launcher": "^1.0.0",
-    "phantomjs-prebuilt": "^2.1.7"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
+  "version": "1.0.0",
+  "description": "## Install",
+  "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BTCChina/btcc-core-platform.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BTCChina/btcc-core-platform/issues"
+  },
+  "homepage": "https://github.com/BTCChina/btcc-core-platform#readme",
+  "dependencies": {
+    "autoprefixer": "^6.4.0",
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.14.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-html-replace": "^1.6.1",
+    "gulp-less": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-watch": "^4.3.9",
+    "run-sequence": "^1.2.2"
   }
 }
